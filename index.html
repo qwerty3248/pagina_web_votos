@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Sistema de Recuento de Votos</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Sistema de Recuento de Votos</h1>
+    <div id="candidates">
+      <label for="candidate1"><input type="radio" name="candidate" id="candidate1" value="Candidate 1"> Candidate 1</label>
+      <label for="candidate2"><input type="radio" name="candidate" id="candidate2" value="Candidate 2"> Candidate 2</label>
+      <label for="candidate3"><input type="radio" name="candidate" id="candidate3" value="Candidate 3"> Candidate 3</label>
+      <label for="candidate4"><input type="radio" name="candidate" id="candidate4" value="Candidate 4"> Candidate 4</label>
+    </div>
+    <button onclick="countVote()">Contar Voto</button>
+    <div id="results">
+      <h2>Resultados:</h2>
+      <ul id="resultList"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
